@@ -803,7 +803,6 @@ requestAnimationFrame(raf)
     min = updateTime(min);
 
     document.getElementById("time").innerHTML = hour + ":" + min + " " + ampm;
-    var t = setTimeout(function() { currentTime() }, 1000);
   }
 
   function updateTime(k) {
